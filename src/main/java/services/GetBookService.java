@@ -12,7 +12,7 @@ import java.util.Map;
 public class GetBookService extends BaseService {
 
 
-    public static Response get(String jsonName) {return get(jsonName, DataBook[].class,setParams());}
+    public static Response get(String jsonName) {return get(jsonName, Book[].class,setParams());}
 
 
 
